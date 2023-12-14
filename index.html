@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="dist/style.css" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <script src="js/app.js" defer></script>
+  </head>
+  <body>
+    <div class="wrapper mx-3 mt-4">
+      <nav
+        class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom fixed-top"
+      >
+        <div class="container">
+          <a class="navbar-brand" href="index.html">CHIDERA</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home"
+                  >HOME</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#service">SERVICES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">SKILLS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio">PORTFOLIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <section class="py-5 border-bottom" id="home">
+        <div class="container home">
+          <div
+            class="d-flex flex-column-reverse flex-lg-row align-items-center gap-5 text-center text-lg-start"
+          >
+            <div class="picture-wrapper">
+              <img
+                src="images/image1.jpg"
+                alt="my profile picture"
+                class="profile-image img-fluid"
+              />
+            </div>
+            <div class="home-content">
+              <p class="lead">HELLO, IT'S</p>
+              <h2 class="name">IKECHUKWU CHIDERA</h2>
+              <p class="leade design-text">
+                I design, code, and build superficial things, and I love what I
+                do.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="py-5 border-bottom" id="about">
+        <div class="container">
+          <div class="about">
+            <h2 class="section-text text-center">ABOUT</h2>
+            <p class="lead design-text text-center mb-3">
+              Creative Designer With Modern Techniques
+            </p>
+            <div
+              class="about-body d-flex flex-column-reverse flex-lg-row align-items-center align-items-lg-center gap-5"
+            >
+              <div class="about-content">
+                <h3 class="text-center mb-5">A LITTLE ABOUT ME</h3>
+                <p class="lead mb-3 text-align-justify clr-design">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Quasi ratione ducimus sequi eum explicabo adipisci dolorum.
+                  Eveniet neque, hic delectus cupiditate quisquam labore quas
+                  nesciunt maxime quidem ex, consequatur nulla!
+                </p>
+                <p class="lead text-align-justify clr-design">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Maiores asperiores, quod, quisquam ea deleniti quae aperiam
+                  expedita aspernatur beatae ex enim incidunt, at magni cum
+                  tenetur consectetur explicabo velit placeat?
+                </p>
+
+                <div
+                  class="info d-md-flex justify-content-between align-items-center text-center text-md-start mt-3"
+                >
+                  <div class="icon-wrapper">
+                    <i class="fa-solid fa-phone fa-lg"></i>
+                    <div class="circle"></div>
+                    <p class="lead mt-3">(+228) 96179183</p>
+                  </div>
+                  <div class="icon-wrapper">
+                    <i class="fa-solid fa-envelope fa-lg"></i>
+                    <div class="circle"></div>
+                    <p class="lead mt-3">bestbrain407@gmail.com</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="picture-wrapper">
+                <img
+                  src="images/image1.jpg"
+                  alt=""
+                  class="profile-image img-fluid"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="py-5 border-bottom">
+        <div class="container-fluid">
+          <div class="shapes-bg">
+            <p class="lead shapes-bg-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+              in sapiente facere ratione eos molestiae, repellendus recusandae.
+              Illo, veritatis nisi asperiores alias molestiae reprehenderit cum
+              maxime nihil. Eius, assumenda ipsa.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="py-5 border-bottom" id="service">
+        <div class="container">
+          <h2 class="section-text text-center pb-4">SERVICES</h2>
+
+          <div class="row g-3">
+            <div class="col-md">
+              <div class="card h-100 bg-dark border">
+                <div class="card-body">
+                  <i class="fa-solid fa-desktop fa-3x pb-3 clr-white"></i>
+                  <h2 class="pb-3 clr-white">Development</h2>
+                  <p class="lead clr-design">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Distinctio voluptatum non, suscipit dolorem quaerat alias.
+                    Ducimus nemo quae eius laboriosam.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md col-lg-4">
+              <div class="card h-100 bg-dark border">
+                <div class="card-body">
+                  <i class="fa-regular fa-lightbulb fa-3x pb-3 clr-white"></i>
+                  <h2 class="pb-3 clr-white">Design</h2>
+                  <p class="lead clr-design">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Distinctio voluptatum non, suscipit dolorem quaerat alias.
+                    Ducimus nemo quae eius laboriosam.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md col-lg-4">
+              <div class="card h-100 bg-dark border">
+                <div class="card-body">
+                  <i
+                    class="fa-solid fa-arrow-trend-up fa-3x pb-3 clr-white"
+                  ></i>
+                  <h2 class="pb-3 clr-white">Marketing</h2>
+                  <p class="lead clr-design">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Distinctio voluptatum non, suscipit dolorem quaerat alias.
+                    Ducimus nemo quae eius laboriosam.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="portfolio py-5 border-bottom" id="portfolio">
+        <div class="container-fluid">
+          <div class="shapes-bg">
+            <h2 class="section-text text-center pt-5">PORTFOLIO</h2>
+            <p class="lead clr-design text-center pt-3">
+              This is the group of website I created with various technology
+              stack
+            </p>
+
+            <div
+              class="btns text-center d-flex justify-content-center align-items-center"
+            >
+              <button class="tab-btn clr-design">ALL</button>
+              <button class="tab-btn clr-design">HTML/CSS</button>
+              <button class="tab-btn clr-design">JavaScript</button>
+              <button class="tab-btn clr-design">Angular</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="project py-5 border-bottom" id="portfolio">
+        <div class="container">
+          <div class="cards d-flex flex-wrap gap-3">
+            <div class="box">
+              <div class="box-image">
+                <img
+                  src="images/angular1.jpg"
+                  alt=""
+                  class="img-fluid project-image"
+                />
+              </div>
+              <div class="box-content">
+                <div class="box-text">
+                  <p class="lead large-text">Angular</p>
+                  <h2>Luki Website</h2>
+                </div>
+                <div class="box-icon">
+                  <i class="fa-solid fa-arrow-right-long fa-beat-fade"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="box">
+              <div class="box-image">
+                <img
+                  src="images/javascript1.jpg"
+                  alt=""
+                  class="img-fluid project-image"
+                />
+              </div>
+              <div class="box-content">
+                <div class="box-text">
+                  <p class="lead large-text">Angular</p>
+                  <h2>Luki Website</h2>
+                </div>
+                <div class="box-icon">
+                  <i class="fa-solid fa-arrow-right-long fa-beat-fade"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="box">
+              <div class="box-image">
+                <img
+                  src="images/htmlcss1.jpg"
+                  alt=""
+                  class="img-fluid project-image"
+                />
+              </div>
+              <div class="box-content">
+                <div class="box-text">
+                  <p class="lead large-text">HTML/CSS</p>
+                  <h2>Luki Website</h2>
+                </div>
+                <div class="box-icon">
+                  <i class="fa-solid fa-arrow-right-long fa-beat-fade"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="box">
+              <div class="box-image">
+                <img
+                  src="images/javascript2.jpg"
+                  alt=""
+                  class="img-fluid project-image"
+                />
+              </div>
+              <div class="box-content">
+                <div class="box-text">
+                  <p class="lead large-text">JavaScript</p>
+                  <h2>Luki Website</h2>
+                </div>
+                <div class="box-icon">
+                  <i class="fa-solid fa-arrow-right-long fa-beat-fade"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="box">
+              <div class="box-image">
+                <img
+                  src="images/angular2.jpg"
+                  alt=""
+                  class="img-fluid project-image"
+                />
+              </div>
+              <div class="box-content">
+                <div class="box-text">
+                  <p class="lead large-text">Angular</p>
+                  <h2>Luki Website</h2>
+                </div>
+                <div class="box-icon">
+                  <i class="fa-solid fa-arrow-right-long fa-beat-fade"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="box">
+              <div class="box-image">
+                <img
+                  src="images/htmlcss2.jpg"
+                  alt=""
+                  class="img-fluid project-image"
+                />
+              </div>
+              <div class="box-content">
+                <div class="box-text">
+                  <p class="lead large-text">HTML/CSS</p>
+                  <h2>Luki Website</h2>
+                </div>
+                <div class="box-icon">
+                  <i class="fa-solid fa-arrow-right-long fa-beat-fade"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="box">
+              <div class="box-image">
+                <img
+                  src="images/htmlcss3.jpg"
+                  alt=""
+                  class="img-fluid project-image"
+                />
+              </div>
+              <div class="box-content">
+                <div class="box-text">
+                  <p class="lead large-text">HTML/CSS</p>
+
+                  <h2>Luki Website</h2>
+                </div>
+                <div class="box-icon">
+                  <i class="fa-solid fa-arrow-right-long fa-beat-fade"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="box">
+              <div class="box-image">
+                <img
+                  src="images/javascript3.jpg"
+                  alt=""
+                  class="img-fluid project-image"
+                />
+              </div>
+              <div class="box-content">
+                <div class="box-text">
+                  <p class="lead large-text">JavaScript</p>
+                  <h2>Luki Website</h2>
+                </div>
+                <div class="box-icon">
+                  <i class="fa-solid fa-arrow-right-long fa-beat-fade"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="box">
+              <div class="box-image">
+                <img
+                  src="images/angular3.jpg"
+                  alt=""
+                  class="img-fluid project-image"
+                />
+              </div>
+              <div class="box-content">
+                <div class="box-text">
+                  <p class="lead large-text">Angular</p>
+                  <h2>Luki Website</h2>
+                </div>
+                <div class="box-icon">
+                  <i class="fa-solid fa-arrow-right-long fa-beat-fade"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="py-5">
+        <div class="container"></div>
+      </section>
+    </div>
+  </body>
+</html>
