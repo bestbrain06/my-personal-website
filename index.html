@@ -5,6 +5,7 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Online Portfolio</title>
+    <!-- LINK TO GOOGLE FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -17,17 +18,27 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
       rel="stylesheet"
     />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- END OF THE LINK T0 GOOGLE FONTS -->
+
+    <!-- LINK TO FONTS AWESOME ICONS -->
     <link
       rel="stylesheet"
       href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     />
+    <!-- END OF THE LINK TO FONT AWESOME -->
+
+    <!-- LINK TO BOOTSTRAP STYLE -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
     />
+    <!-- END OF LINK TO BOOTSTRAP CLASS  -->
+
+    <!-- LINK TO CSS CLASS -->
     <link rel="stylesheet" href="dist/style.css" />
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
+    <!-- END OF LINK TO CSS CLASS  -->
+
+    <!-- LINK TO BOOTSTRAP SCRIPT -->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
       integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
@@ -40,12 +51,17 @@
       crossorigin="anonymous"
       defer
     ></script>
+    <!-- END OF LINK TO BOOTSTRAP SCRIPT -->
+
+    <!-- MY OWN SCRIPT -->
     <script src="js/app.js" defer></script>
+    <!-- END OF MY OWN SCRIPT -->
   </head>
   <body>
     <div class="wrapper mx-3 mt-4">
+      <!-- NAVBAR START  -->
       <nav
-        class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom fixed-top"
+        class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom sticky-top"
       >
         <div class="container">
           <a class="navbar-brand" href="index.html">CHIDERA</a>
@@ -74,19 +90,22 @@
                 <a class="nav-link" href="#service">SERVICES</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">SKILLS</a>
+                <a class="nav-link" href="#skill">SKILLS</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#portfolio">PORTFOLIO</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">CONTACT</a>
+                <a class="nav-link" href="#contact">CONTACT</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
 
+      <!-- NAVBAR END -->
+
+      <!-- HOME SECTION START  -->
       <section class="py-5 border-bottom" id="home">
         <div class="container home">
           <div
@@ -110,7 +129,9 @@
           </div>
         </div>
       </section>
+      <!-- HOME SECTION END -->
 
+      <!-- ABOUT SECTION START  -->
       <section class="py-5 border-bottom" id="about">
         <div class="container">
           <div class="about">
@@ -163,8 +184,10 @@
           </div>
         </div>
       </section>
+      <!-- ABOUT SECTION END -->
 
-      <section class="py-5 border-bottom">
+      <!-- DESCRIPTION START -->
+      <div class="py-5 border-bottom">
         <div class="container-fluid">
           <div class="shapes-bg">
             <p class="lead shapes-bg-text">
@@ -175,8 +198,10 @@
             </p>
           </div>
         </div>
-      </section>
+      </div>
+      <!-- DESCRIPTION END -->
 
+      <!-- SERVICE SECTION START -->
       <section class="py-5 border-bottom" id="service">
         <div class="container">
           <h2 class="section-text text-center pb-4">SERVICES</h2>
@@ -185,7 +210,7 @@
             <div class="col-md">
               <div class="card h-100 bg-dark border">
                 <div class="card-body">
-                  <i class="fa-solid fa-desktop fa-3x pb-3 clr-white"></i>
+                  <i class="service-icon fa-solid fa-desktop fa-4x"></i>
                   <h2 class="pb-3 clr-white">Development</h2>
                   <p class="lead clr-design">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -199,7 +224,7 @@
             <div class="col-md col-lg-4">
               <div class="card h-100 bg-dark border">
                 <div class="card-body">
-                  <i class="fa-regular fa-lightbulb fa-3x pb-3 clr-white"></i>
+                  <i class="service-icon fa-regular fa-lightbulb fa-4x"></i>
                   <h2 class="pb-3 clr-white">Design</h2>
                   <p class="lead clr-design">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -213,9 +238,7 @@
             <div class="col-md col-lg-4">
               <div class="card h-100 bg-dark border">
                 <div class="card-body">
-                  <i
-                    class="fa-solid fa-arrow-trend-up fa-3x pb-3 clr-white"
-                  ></i>
+                  <i class="service-icon fa-solid fa-arrow-trend-up fa-4x"></i>
                   <h2 class="pb-3 clr-white">Marketing</h2>
                   <p class="lead clr-design">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -228,209 +251,314 @@
           </div>
         </div>
       </section>
+      <!-- SERVICES SECTION END -->
 
+      <!-- SKILL SECTION START -->
+      <section class="py-5" id="skill"></section>
+      <!-- SKILL SECTION END -->
+
+      <!-- PORTFOLIO SECTION START  -->
       <section class="portfolio py-5 border-bottom" id="portfolio">
         <div class="container-fluid">
           <div class="shapes-bg">
             <h2 class="section-text text-center pt-5">PORTFOLIO</h2>
-            <p class="lead clr-design text-center pt-3">
+            <p class="lead clr-design text-center pt-2 pt-md-3">
               This is the group of website I created with various technology
               stack
             </p>
 
             <div
-              class="btns text-center d-flex justify-content-center align-items-center"
+              class="btns text-center d-flex flex-wrap justify-content-center align-items-center gap-3"
             >
-              <button class="tab-btn clr-design">ALL</button>
-              <button class="tab-btn clr-design">HTML/CSS</button>
-              <button class="tab-btn clr-design">JavaScript</button>
-              <button class="tab-btn clr-design">Angular</button>
+              <button
+                class="tab-btn clr-design active"
+                onclick="toggleActive(this)"
+                value="all"
+              >
+                ALL
+              </button>
+              <button
+                class="tab-btn clr-design"
+                onclick="toggleActive(this)"
+                value="html"
+              >
+                HTML/CSS
+              </button>
+              <button
+                class="tab-btn clr-design"
+                onclick="toggleActive(this)"
+                value="javascript"
+              >
+                JavaScript
+              </button>
+              <button
+                class="tab-btn clr-design"
+                onclick="toggleActive(this)"
+                value="angular"
+              >
+                Angular
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="project py-5 border-bottom">
+          <div class="container">
+            <div class="cards d-flex flex-wrap gap-3 justify-content-center">
+              <div class="box all angular">
+                <div class="box-image">
+                  <img
+                    src="images/angular1.jpg"
+                    alt=""
+                    class="img-fluid project-image"
+                  />
+                </div>
+                <div class="box-content">
+                  <div class="box-text">
+                    <p class="lead large-text">Angular</p>
+                    <h2 class="website-text">Luki Website</h2>
+                  </div>
+                  <div class="box-icon">
+                    <i class="fa-solid fa-arrow-right-long fa-beat-fade"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="box all javascript">
+                <div class="box-image">
+                  <img
+                    src="images/javascript1.jpg"
+                    alt=""
+                    class="img-fluid project-image"
+                  />
+                </div>
+                <div class="box-content">
+                  <div class="box-text">
+                    <p class="lead large-text">JavaScript</p>
+                    <h2 class="website-text">Luki Website</h2>
+                  </div>
+                  <div class="box-icon">
+                    <i class="fa-solid fa-arrow-right-long fa-beat-fade"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="box all html">
+                <div class="box-image">
+                  <img
+                    src="images/htmlcss1.jpg"
+                    alt=""
+                    class="img-fluid project-image"
+                  />
+                </div>
+                <div class="box-content">
+                  <div class="box-text">
+                    <p class="lead large-text">HTML/CSS</p>
+                    <h2 class="website-text">Luki Website</h2>
+                  </div>
+                  <div class="box-icon">
+                    <i class="fa-solid fa-arrow-right-long fa-beat-fade"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="box all javascript">
+                <div class="box-image">
+                  <img
+                    src="images/javascript2.jpg"
+                    alt=""
+                    class="img-fluid project-image"
+                  />
+                </div>
+                <div class="box-content">
+                  <div class="box-text">
+                    <p class="lead large-text">JavaScript</p>
+                    <h2 class="website-text">Luki Website</h2>
+                  </div>
+                  <div class="box-icon">
+                    <i class="fa-solid fa-arrow-right-long fa-beat-fade"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="box all angular">
+                <div class="box-image">
+                  <img
+                    src="images/angular2.jpg"
+                    alt=""
+                    class="img-fluid project-image"
+                  />
+                </div>
+                <div class="box-content">
+                  <div class="box-text">
+                    <p class="lead large-text">Angular</p>
+                    <h2 class="website-text">Luki Website</h2>
+                  </div>
+                  <div class="box-icon">
+                    <i class="fa-solid fa-arrow-right-long fa-beat-fade"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="box all html">
+                <div class="box-image">
+                  <img
+                    src="images/htmlcss2.jpg"
+                    alt=""
+                    class="img-fluid project-image"
+                  />
+                </div>
+                <div class="box-content">
+                  <div class="box-text">
+                    <p class="lead large-text">HTML/CSS</p>
+                    <h2 class="website-text">Luki Website</h2>
+                  </div>
+                  <div class="box-icon">
+                    <i class="fa-solid fa-arrow-right-long fa-beat-fade"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="box all html">
+                <div class="box-image">
+                  <img
+                    src="images/htmlcss3.jpg"
+                    alt=""
+                    class="img-fluid project-image"
+                  />
+                </div>
+                <div class="box-content">
+                  <div class="box-text">
+                    <p class="lead large-text">HTML/CSS</p>
+
+                    <h2 class="website-text">Luki Website</h2>
+                  </div>
+                  <div class="box-icon">
+                    <i class="fa-solid fa-arrow-right-long fa-beat-fade"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="box all javascript">
+                <div class="box-image">
+                  <img
+                    src="images/javascript3.jpg"
+                    alt=""
+                    class="img-fluid project-image"
+                  />
+                </div>
+                <div class="box-content">
+                  <div class="box-text">
+                    <p class="lead large-text">JavaScript</p>
+                    <h2 class="website-text">Luki Website</h2>
+                  </div>
+                  <div class="box-icon">
+                    <i class="fa-solid fa-arrow-right-long fa-beat-fade"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="box all angular">
+                <div class="box-image">
+                  <img
+                    src="images/angular3.jpg"
+                    alt=""
+                    class="img-fluid project-image"
+                  />
+                </div>
+                <div class="box-content">
+                  <div class="box-text">
+                    <p class="lead large-text">Angular</p>
+                    <h2 class="website-text">Luki Website</h2>
+                  </div>
+                  <div class="box-icon">
+                    <i class="fa-solid fa-arrow-right-long fa-beat-fade"></i>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="project py-5 border-bottom" id="portfolio">
+      <!-- PORTFOLIO SECTION END -->
+
+      <!-- CONTACT SECTION START  -->
+      <section id="contact" class="border-bottom">
         <div class="container">
-          <div class="cards d-flex flex-wrap gap-3">
-            <div class="box">
-              <div class="box-image">
-                <img
-                  src="images/angular1.jpg"
-                  alt=""
-                  class="img-fluid project-image"
-                />
-              </div>
-              <div class="box-content">
-                <div class="box-text">
-                  <p class="lead large-text">Angular</p>
-                  <h2>Luki Website</h2>
+          <div class="row">
+            <div class="col-lg-6 border-right">
+              <h2 class="text-center mt-5">GET IN TOUCH</h2>
+              <p class="text-center design-text">
+                Fill out my form below and send me an email.
+              </p>
+              <div class="form-main">
+                <div class="form">
+                  <input type="text" name="name" required autocomplete="off" />
+                  <label class="label-name">
+                    <span class="content-name">Name*</span>
+                  </label>
                 </div>
-                <div class="box-icon">
-                  <i class="fa-solid fa-arrow-right-long fa-beat-fade"></i>
+                <div class="form">
+                  <input type="email" name="name" required autocomplete="off" />
+                  <label class="label-name">
+                    <span class="content-name">E-mail*</span>
+                  </label>
                 </div>
-              </div>
-            </div>
-
-            <div class="box">
-              <div class="box-image">
-                <img
-                  src="images/javascript1.jpg"
-                  alt=""
-                  class="img-fluid project-image"
-                />
-              </div>
-              <div class="box-content">
-                <div class="box-text">
-                  <p class="lead large-text">Angular</p>
-                  <h2>Luki Website</h2>
+                <div class="form">
+                  <input type="text" name="name" required autocomplete="off" />
+                  <label class="label-name">
+                    <span class="content-name">Phone Number</span>
+                  </label>
                 </div>
-                <div class="box-icon">
-                  <i class="fa-solid fa-arrow-right-long fa-beat-fade"></i>
+                <div class="form" id="form2">
+                  <input type="text" name="name" required autocomplete="off" />
+                  <label class="label-name">
+                    <span class="content-name" id="content-name2"
+                      >Message*</span
+                    >
+                  </label>
                 </div>
-              </div>
-            </div>
-
-            <div class="box">
-              <div class="box-image">
-                <img
-                  src="images/htmlcss1.jpg"
-                  alt=""
-                  class="img-fluid project-image"
-                />
-              </div>
-              <div class="box-content">
-                <div class="box-text">
-                  <p class="lead large-text">HTML/CSS</p>
-                  <h2>Luki Website</h2>
-                </div>
-                <div class="box-icon">
-                  <i class="fa-solid fa-arrow-right-long fa-beat-fade"></i>
+                <div class="button-required pt-3">
+                  <button class="send-btn">
+                    Send Message
+                    <span class="send-span"></span>
+                  </button>
+                  <p class="required clr-design text-center">
+                    *Marked fields are required to fill.
+                  </p>
                 </div>
               </div>
             </div>
+            <div class="col-lg-6">
+              <h2 class="mt-5 text-center">CATCH ME HERE</h2>
 
-            <div class="box">
-              <div class="box-image">
-                <img
-                  src="images/javascript2.jpg"
-                  alt=""
-                  class="img-fluid project-image"
-                />
-              </div>
-              <div class="box-content">
-                <div class="box-text">
-                  <p class="lead large-text">JavaScript</p>
-                  <h2>Luki Website</h2>
+              <div class="contact-icons d-flex flex-column gap-5 mt-5 px-5">
+                <div class="phone">
+                  <i class="fa fa-phone fa-2x"></i>
+                  <p class="lead design-text">(+228) 96179128</p>
                 </div>
-                <div class="box-icon">
-                  <i class="fa-solid fa-arrow-right-long fa-beat-fade"></i>
-                </div>
-              </div>
-            </div>
-
-            <div class="box">
-              <div class="box-image">
-                <img
-                  src="images/angular2.jpg"
-                  alt=""
-                  class="img-fluid project-image"
-                />
-              </div>
-              <div class="box-content">
-                <div class="box-text">
-                  <p class="lead large-text">Angular</p>
-                  <h2>Luki Website</h2>
-                </div>
-                <div class="box-icon">
-                  <i class="fa-solid fa-arrow-right-long fa-beat-fade"></i>
-                </div>
-              </div>
-            </div>
-
-            <div class="box">
-              <div class="box-image">
-                <img
-                  src="images/htmlcss2.jpg"
-                  alt=""
-                  class="img-fluid project-image"
-                />
-              </div>
-              <div class="box-content">
-                <div class="box-text">
-                  <p class="lead large-text">HTML/CSS</p>
-                  <h2>Luki Website</h2>
-                </div>
-                <div class="box-icon">
-                  <i class="fa-solid fa-arrow-right-long fa-beat-fade"></i>
-                </div>
-              </div>
-            </div>
-
-            <div class="box">
-              <div class="box-image">
-                <img
-                  src="images/htmlcss3.jpg"
-                  alt=""
-                  class="img-fluid project-image"
-                />
-              </div>
-              <div class="box-content">
-                <div class="box-text">
-                  <p class="lead large-text">HTML/CSS</p>
-
-                  <h2>Luki Website</h2>
-                </div>
-                <div class="box-icon">
-                  <i class="fa-solid fa-arrow-right-long fa-beat-fade"></i>
-                </div>
-              </div>
-            </div>
-
-            <div class="box">
-              <div class="box-image">
-                <img
-                  src="images/javascript3.jpg"
-                  alt=""
-                  class="img-fluid project-image"
-                />
-              </div>
-              <div class="box-content">
-                <div class="box-text">
-                  <p class="lead large-text">JavaScript</p>
-                  <h2>Luki Website</h2>
-                </div>
-                <div class="box-icon">
-                  <i class="fa-solid fa-arrow-right-long fa-beat-fade"></i>
-                </div>
-              </div>
-            </div>
-
-            <div class="box">
-              <div class="box-image">
-                <img
-                  src="images/angular3.jpg"
-                  alt=""
-                  class="img-fluid project-image"
-                />
-              </div>
-              <div class="box-content">
-                <div class="box-text">
-                  <p class="lead large-text">Angular</p>
-                  <h2>Luki Website</h2>
-                </div>
-                <div class="box-icon">
-                  <i class="fa-solid fa-arrow-right-long fa-beat-fade"></i>
+                <div class="email">
+                  <i class="fa-solid fa-envelope fa-2x"></i>
+                  <p class="lead design-text">bestbrain407@gmail.com</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
+      <!-- CONTACT SECTION END -->
 
+      <!-- FOOTER SECTION  -->
       <section class="py-5">
-        <div class="container"></div>
+        <div class="container">
+          <p class="lead design-text clr-white text-center">
+            IKECHUKWU CHIDERA PORTFOLIO &copy; 2023
+          </p>
+        </div>
       </section>
+
+      <!-- FOOTER SECTION END  -->
     </div>
   </body>
 </html>
